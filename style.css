@@ -1,0 +1,32 @@
+div{
+    background-image: url(C:\Users\Admin\Desktop\coding\html\IMG_20251201_214727.jpg);
+    margin: 20px;
+    
+    padding-left: 20ptextx;
+    -decoration: antiquewhite;
+    text-align: center;
+    border: 2px solid black;
+    
+}
+<style>
+    body {
+        position: relative;
+        z-index: 1;
+    }
+
+    .watermark {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        opacity: 0.8; /* fade */
+        width: 600px; /* make smaller */
+        pointer-events: none; /* not clickable */
+        z-index: -1; /* behind entire page */
+    }
+</style>
+
+
+
+
+
